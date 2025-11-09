@@ -16,7 +16,7 @@ gcc lex.yy.c -lfl -o scanner
 
 # run
 ./scanner < input.rpp
-input.rpp is a sample React++ source file. tokens.txt will contain tokenized output with line numbers.
+input.rpp is a sample React++ source file. output.txt will contain tokenized output with line numbers.
 
 ```
 # What This Lexer Does
