@@ -12,10 +12,10 @@ This repository contains the lexer (Flex) rules, build/run instructions, example
 flex scanner.l
 
 # compile
-gcc lex.yy.c -lfl -o reactpp_lexer
+gcc lex.yy.c -lfl -o scanner
 
 # run
-./reactpp_lexer input.rpp > tokens.txt
+./scanner < input.rpp
 input.rpp is a sample React++ source file. tokens.txt will contain tokenized output with line numbers.
 
 ```
