@@ -1,0 +1,309 @@
+Line 1: KEYWORD - state
+Line 1: Invalid Identifier - main
+Line 1: Punctuation - (
+Line 1: Punctuation - )
+Line 2: Punctuation - </
+Line 4: KEYWORD - state
+Line 4: Invalid Identifier - count
+Line 4: OPERATOR - =
+Line 4: INTEGER - 10
+Line 4: End of Line - $
+Line 5: KEYWORD - scale
+Line 5: Identifier @speed
+Line 5: OPERATOR - =
+Line 5: FLOAT - 1.5
+Line 5: End of Line - $
+Line 6: KEYWORD - tag
+Line 6: Identifier @grade
+Line 6: OPERATOR - =
+Line 6: CHAR - 'A'
+Line 6: End of Line - $
+Line 7: KEYWORD - tag
+Line 7: Identifier @badChar
+Line 7: OPERATOR - =
+Line 7: Invalid Char(too Long) - 'AB'
+Line 7: End of Line - $
+Line 8: KEYWORD - content
+Line 8: Identifier @name
+Line 8: OPERATOR - =
+Line 8: STRING - "Rameez"
+Line 8: End of Line - $
+Line 9: KEYWORD - content
+Line 9: Identifier @unclosed
+Line 9: OPERATOR - =
+Line 9: Unterminated String - "Hello$    : Unterminated string
+
+Line 9: KEYWORD - lock
+Line 9: Identifier @PI
+Line 9: OPERATOR - =
+Line 9: FLOAT - 3.1415
+Line 9: End of Line - $
+Line 10: KEYWORD - detect
+Line 10: Identifier @value
+Line 10: OPERATOR - =
+Line 10: Invalid Number - 20.0.
+Line 10: INTEGER - 5
+Line 10: End of Line - $
+Line 11: KEYWORD - toggle
+Line 11: Identifier @isTrue
+Line 11: OPERATOR - =
+Line 11: KEYWORD - false
+Line 11: End of Line - $
+Line 12: KEYWORD - toggle
+Line 12: Identifier @invalidTrue
+Line 12: OPERATOR - =
+Line 12: Invalid Identifier - fals
+Line 12: End of Line - $
+Line 14: Invalid Identifier - @9abc
+Line 14: OPERATOR - =
+Line 14: INTEGER - 25
+Line 14: End of Line - $
+Line 15: Identifier @_correct
+Line 15: OPERATOR - =
+Line 15: INTEGER - 100
+Line 15: End of Line - $
+Line 16: Identifier @abc
+Line 16: End of Line - $
+Line 18: Identifier @sum
+Line 18: OPERATOR - =
+Line 18: Identifier @count
+Line 18: OPERATOR - +
+Line 18: INTEGER - 5
+Line 18: End of Line - $
+Line 19: Identifier @diff
+Line 19: OPERATOR - =
+Line 19: Identifier @count
+Line 19: OPERATOR - -
+Line 19: INTEGER - 3
+Line 19: End of Line - $
+Line 20: Identifier @mul
+Line 20: OPERATOR - =
+Line 20: Identifier @count
+Line 20: OPERATOR - **
+Line 20: INTEGER - 2
+Line 20: End of Line - $
+Line 21: Identifier @div
+Line 21: OPERATOR - =
+Line 21: Identifier @count
+Line 21: ERROR - /
+Line 21: INTEGER - 0
+Line 21: End of Line - $
+Line 22: Identifier @invalidOp
+Line 22: OPERATOR - =
+Line 22: Identifier @count
+Line 22: Invalid Operator - ++
+Line 22: INTEGER - 1
+Line 22: End of Line - $
+Line 23: Identifier @wrongEq
+Line 23: OPERATOR - =
+Line 23: Identifier @count
+Line 23: Invalid Operator - ===
+Line 23: INTEGER - 10
+Line 23: End of Line - $
+Line 24: Identifier @logical
+Line 24: OPERATOR - =
+Line 24: Identifier @count
+Line 24: Invalid Identifier - and
+Line 24: Identifier @value
+Line 24: End of Line - $
+Line 25: Identifier @compare
+Line 25: OPERATOR - =
+Line 25: Identifier @value
+Line 25: OPERATOR - >=
+Line 25: INTEGER - 5
+Line 25: End of Line - $
+Line 26: Identifier @weird
+Line 26: OPERATOR - =
+Line 26: Identifier @value
+Line 26: OPERATOR - >
+Line 26: ERROR - ?
+Line 26: INTEGER - 10
+Line 26: End of Line - $
+Line 27: Identifier @next
+Line 27: OPERATOR - =
+Line 27: Identifier @count
+Line 27: OPERATOR - <<
+Line 27: INTEGER - 2
+Line 27: End of Line - $
+Line 28: Identifier @shift
+Line 28: OPERATOR - =
+Line 28: Identifier @count
+Line 28: OPERATOR - >>
+Line 28: INTEGER - 3
+Line 28: End of Line - $
+Line 29: Identifier @pipe
+Line 29: OPERATOR - =
+Line 29: Identifier @value
+Line 29: OPERATOR - ~=
+Line 29: INTEGER - 7
+Line 29: End of Line - $
+Line 34: KEYWORD - render
+Line 34: OPERATOR - <<
+Line 34: STRING - "Enter your name:"
+Line 34: End of Line - $
+Line 35: KEYWORD - fetch
+Line 35: OPERATOR - >>
+Line 35: Identifier @name
+Line 35: End of Line - $
+Line 36: KEYWORD - render
+Line 36: OPERATOR - <<
+Line 36: STRING - "Welcome, "
+Line 36: End of Line - $
+Line 37: KEYWORD - render
+Line 37: OPERATOR - <<
+Line 37: Identifier @name
+Line 37: End of Line - $
+Line 40: KEYWORD - promise
+Line 40: Punctuation - (
+Line 40: Identifier @value
+Line 40: OPERATOR - >
+Line 40: INTEGER - 10
+Line 40: Punctuation - )
+Line 41: Punctuation - </
+Line 42: KEYWORD - render
+Line 42: OPERATOR - <<
+Line 42: STRING - "Value is greater than 10"
+Line 42: End of Line - $
+Line 43: Punctuation - \>
+Line 44: KEYWORD - deceit
+Line 45: Punctuation - </
+Line 46: KEYWORD - render
+Line 46: OPERATOR - <<
+Line 46: STRING - "Value is 10 or less"
+Line 46: End of Line - $
+Line 47: Punctuation - \>
+Line 50: KEYWORD - navigate
+Line 50: Punctuation - (
+Line 50: Identifier @count
+Line 50: OPERATOR - =
+Line 50: INTEGER - 0
+Line 50: End of Line - $
+Line 50: Identifier @count
+Line 50: OPERATOR - <
+Line 50: INTEGER - 3
+Line 50: End of Line - $
+Line 50: Identifier @count
+Line 50: OPERATOR - =
+Line 50: Identifier @count
+Line 50: OPERATOR - +
+Line 50: INTEGER - 1
+Line 50: Punctuation - )
+Line 51: Punctuation - </
+Line 52: KEYWORD - render
+Line 52: OPERATOR - <<
+Line 52: STRING - "Loop number: "
+Line 52: End of Line - $
+Line 53: KEYWORD - render
+Line 53: OPERATOR - <<
+Line 53: Identifier @count
+Line 53: End of Line - $
+Line 54: KEYWORD - promise
+Line 54: Punctuation - (
+Line 54: Identifier @count
+Line 54: OPERATOR - =
+Line 54: OPERATOR - =
+Line 54: INTEGER - 1
+Line 54: Punctuation - )
+Line 55: KEYWORD - rerender
+Line 55: End of Line - $
+Line 56: KEYWORD - deceit
+Line 57: KEYWORD - render
+Line 57: OPERATOR - <<
+Line 57: STRING - "Continuing..."
+Line 57: End of Line - $
+Line 58: Punctuation - \>
+Line 60: KEYWORD - observe
+Line 60: Punctuation - (
+Line 60: Identifier @value
+Line 60: OPERATOR - <
+Line 60: INTEGER - 25
+Line 60: Punctuation - )
+Line 61: Punctuation - </
+Line 62: Identifier @value
+Line 62: OPERATOR - =
+Line 62: Identifier @value
+Line 62: OPERATOR - +
+Line 62: INTEGER - 1
+Line 62: End of Line - $
+Line 63: KEYWORD - render
+Line 63: OPERATOR - <<
+Line 63: STRING - "Value incremented to: "
+Line 63: End of Line - $
+Line 64: KEYWORD - render
+Line 64: OPERATOR - <<
+Line 64: Identifier @value
+Line 64: End of Line - $
+Line 65: Punctuation - \>
+Line 68: KEYWORD - dispatch
+Line 69: Punctuation - </
+Line 70: KEYWORD - render
+Line 70: OPERATOR - <<
+Line 70: STRING - "Inside dispatch loop"
+Line 70: End of Line - $
+Line 71: Identifier @value
+Line 71: OPERATOR - =
+Line 71: Identifier @value
+Line 71: OPERATOR - +
+Line 71: INTEGER - 2
+Line 71: End of Line - $
+Line 72: Punctuation - \>
+Line 73: KEYWORD - observe
+Line 73: Punctuation - (
+Line 73: Identifier @value
+Line 73: OPERATOR - <
+Line 73: INTEGER - 30
+Line 73: Punctuation - )
+Line 73: End of Line - $
+Line 76: KEYWORD - route
+Line 76: Punctuation - (
+Line 76: Identifier @grade
+Line 76: Punctuation - )
+Line 77: Punctuation - </
+Line 78: KEYWORD - path
+Line 78: Punctuation - (
+Line 78: Identifier @grade
+Line 78: OPERATOR - :=
+Line 78: CHAR - 'A'
+Line 78: Punctuation - )
+Line 79: KEYWORD - render
+Line 79: OPERATOR - <<
+Line 79: STRING - "Excellent!"
+Line 79: End of Line - $
+Line 80: KEYWORD - path
+Line 80: Punctuation - (
+Line 80: Identifier @grade
+Line 80: OPERATOR - :=
+Line 80: CHAR - 'B'
+Line 80: Punctuation - )
+Line 81: KEYWORD - render
+Line 81: OPERATOR - <<
+Line 81: STRING - "Good Work!"
+Line 81: End of Line - $
+Line 82: KEYWORD - path
+Line 82: Punctuation - (
+Line 82: Identifier @grade
+Line 82: OPERATOR - :=
+Line 82: CHAR - 'C'
+Line 82: Punctuation - )
+Line 83: KEYWORD - render
+Line 83: OPERATOR - <<
+Line 83: STRING - "Needs Improvement!"
+Line 83: End of Line - $
+Line 84: KEYWORD - deceit
+Line 85: KEYWORD - render
+Line 85: OPERATOR - <<
+Line 85: STRING - "Invalid Grade!"
+Line 85: End of Line - $
+Line 86: Punctuation - \>
+Line 89: OPERATOR - >
+Line 89: ERROR - ?
+Line 89: ERROR - #
+Line 89: ERROR - &
+Line 89: ERROR - @
+Line 89: ERROR - !
+Line 89: End of Line - $
+Line 91: KEYWORD - render
+Line 91: OPERATOR - <<
+Line 91: STRING - "Program Execution Completed!"
+Line 91: End of Line - $
+Line 92: Punctuation - \>

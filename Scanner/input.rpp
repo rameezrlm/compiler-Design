@@ -1,0 +1,97 @@
+state main()
+</
+: Variable declarations and data types
+state count = 10$
+scale @speed = 1.5$
+tag @grade = 'A'$
+tag @badChar = 'AB'$           : Invalid char (too long)
+content @name = "Rameez"$
+content @unclosed = "Hello$    : Unterminated string
+lock @PI = 3.1415$
+detect @value = 20.0.5$        : Invalid number
+toggle @isTrue = false$
+toggle @invalidTrue = fals$    : Typo, not a keyword
+: Invalid identifier examples
+@9abc = 25$                    : Invalid identifier (starts with digit)
+@_correct = 100$
+@abc$                          : Missing assignment
+: Operators and punctuation test
+@sum = @count + 5$
+@diff = @count - 3$
+@mul = @count ** 2$
+@div = @count / 0$
+@invalidOp = @count ++ 1$      : Invalid operator
+@wrongEq = @count === 10$      : Invalid operator
+@logical = @count and @value$
+@compare = @value >= 5$
+@weird = @value > ? 10$        : Invalid symbol '?'
+@next = @count << 2$
+@shift = @count >> 3$
+@pipe = @value ~= 7$
+: Comment test
+[:
+This is a multiline
+comment block that should be ignored 
+:]
+
+: Input / Output
+render << "Enter your name:"$
+fetch >> @name$
+render << "Welcome, "$
+render << @name$
+
+: Conditional example using promise / deceit
+promise (@value > 10)
+</
+render << "Value is greater than 10"$
+\>
+deceit
+</
+render << "Value is 10 or less"$
+\>
+
+: Loop examples
+navigate (@count = 0$ @count < 3$ @count = @count + 1)
+</
+render << "Loop number: "$
+render << @count$
+promise (@count == 1)
+rerender$
+deceit
+render << "Continuing..."$
+\>
+
+observe (@value < 25)
+</
+@value = @value + 1$
+render << "Value incremented to: "$
+render << @value$
+\>
+
+: Dispatch (do-while style)
+dispatch
+</
+render << "Inside dispatch loop"$ 
+@value = @value + 2$
+\>
+observe (@value < 30)$
+
+: Route (switch-case style)
+route (@grade)
+</
+path (@grade := 'A')
+render << "Excellent!"$
+path (@grade := 'B')
+render << "Good Work!"$
+path (@grade := 'C')
+render << "Needs Improvement!"$
+deceit
+render << "Invalid Grade!"$
+\>
+
+: Invalid unknown characters
+> ? # & @!$
+
+render << "Program Execution Completed!"$
+\>
+
